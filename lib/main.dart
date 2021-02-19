@@ -18,13 +18,13 @@ class MyApp extends StatelessWidget{
             children: [
               Container(
                 alignment:Alignment.center,
-                child: Text("BERITA TERBARU", style: TextStyle(fontSize:15,color: Colors.black)),
+                child: Text("BERITA TERBARU", style: TextStyle(fontSize:12,color: Colors.black)),
                 height: 50.0, width: 150.0,
               ),
               Container(
                 alignment:Alignment.center,
-                child: Text("PERTANDINGAN HARI INI", style: TextStyle(fontSize:15,color: Colors.black)),
-                height: 50.0, width: 250.0,
+                child: Text("PERTANDINGAN HARI INI", style: TextStyle(fontSize:12,color: Colors.black)),
+                height: 50.0, width: 210.0,
               ),
             ]
           ),
@@ -37,11 +37,12 @@ class MyApp extends StatelessWidget{
             height: 40,
           ),
           Container(
-            color: Colors.purple,
+            color: Colors.purpleAccent,
             alignment:Alignment.centerLeft,
             child: Text("Transfer", style: TextStyle(fontSize:15,color:
             Colors.black)),
             height: 50.0,
+            padding: const EdgeInsets.all(10.0),  
           ),
           Row(
             children: [
@@ -68,7 +69,7 @@ class MyApp extends StatelessWidget{
                   width: 1,
                 ),
                 ),
-                height: 80.0, width: 250.0,
+                height: 80.0, width: 210.0,
                 margin: const EdgeInsets.only(top: 10),
                 padding: const EdgeInsets.all(5.0),      
               ),
@@ -84,9 +85,9 @@ class MyApp extends StatelessWidget{
               width: 1,
             ),
             ), 
-            height: 30.0,
+            height: 40.0,
             margin: const EdgeInsets.only(bottom:10,), 
-            padding: const EdgeInsets.all(5.0),      
+            padding: const EdgeInsets.all(10.0),      
           ),
 
           //222222222222222222222
@@ -115,7 +116,7 @@ class MyApp extends StatelessWidget{
                   width: 1,
                 ),
                 ),
-                height: 80.0, width: 250.0,
+                height: 80.0, width: 210.0,
                 margin: const EdgeInsets.only(top: 10),
                 padding: const EdgeInsets.all(5.0),      
               ),
@@ -131,9 +132,9 @@ class MyApp extends StatelessWidget{
               width: 1,
             ),
             ), 
-            height: 30.0,
+            height: 40.0,
             margin: const EdgeInsets.only(bottom:10,), 
-            padding: const EdgeInsets.all(5.0),      
+            padding: const EdgeInsets.all(10.0),      
           ),
         ]
         ),
